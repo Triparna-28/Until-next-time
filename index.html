@@ -7,14 +7,14 @@
 <style>
 body{margin:0;font-family:Georgia,serif;color:#35264b;background:#eee7fa;line-height:1.7}
 header,section,footer{padding:24px max(6%,calc((100% - 900px)/2))}
-header{text-align:center;padding-top:75px;padding-bottom:75px;background:linear-gradient(#eee7fae8,#eee7fae8),url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDcwMCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4Mj0iMCIgeTI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiNiZGE2ZTgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmNGQ4ZWUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI3MDAiIGZpbGw9InVybCgjYSkiLz48Y2lyY2xlIGN4PSI4NzAiIGN5PSIxODAiIHI9Ijk1IiBmaWxsPSIjZmZmMGNlIi8+PHBhdGggZD0iTTAgNDcwUTIyMCAzMzAgNDMwIDQ3MFQ4NTAgNDQwVDEyMDAgNDEwVjcwMEgwWiIgZmlsbD0iIzlkODNjOCIvPjxwYXRoIGQ9Ik0wIDU0MFEyNTAgNDMwIDUwMCA1NTBUOTUwIDUwMFQxMjAwIDUxMFY3MDBIMFoiIGZpbGw9IiNiNThkZDAiLz48ZyBmaWxsPSIjZmZmNWZmIj48Y2lyY2xlIGN4PSIxNzAiIGN5PSIxNTAiIHI9IjUiLz48Y2lyY2xlIGN4PSIyOTAiIGN5PSI5MCIgcj0iNCIvPjxjaXJjbGUgY3g9IjUwMCIgY3k9IjE4MCIgcj0iNSIvPjwvZz48L3N2Zz4=') center/cover}
+header{text-align:center;padding-top:75px;padding-bottom:75px;background:url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDcwMCI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4Mj0iMCIgeTI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiNiZGE2ZTgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmNGQ4ZWUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iMTIwMCIgaGVpZ2h0PSI3MDAiIGZpbGw9InVybCgjYSkiLz48Y2lyY2xlIGN4PSI4NzAiIGN5PSIxODAiIHI9Ijk1IiBmaWxsPSIjZmZmMGNlIi8+PHBhdGggZD0iTTAgNDcwUTIyMCAzMzAgNDMwIDQ3MFQ4NTAgNDQwVDEyMDAgNDEwVjcwMEgwWiIgZmlsbD0iIzlkODNjOCIvPjxwYXRoIGQ9Ik0wIDU0MFEyNTAgNDMwIDUwMCA1NTBUOTUwIDUwMFQxMjAwIDUxMFY3MDBIMFoiIGZpbGw9IiNiNThkZDAiLz48ZyBmaWxsPSIjZmZmNWZmIj48Y2lyY2xlIGN4PSIxNzAiIGN5PSIxNTAiIHI9IjUiLz48Y2lyY2xlIGN4PSIyOTAiIGN5PSI5MCIgcj0iNCIvPjxjaXJjbGUgY3g9IjUwMCIgY3k9IjE4MCIgcj0iNSIvPjwvZz48L3N2Zz4=') center/cover}
 h1{font-size:clamp(2.8rem,8vw,5rem);line-height:1.05;margin:10px 0;color:#6846a5}
 h2{font-size:2rem;color:#6846a5}
 small,.eyebrow{letter-spacing:2px;text-transform:uppercase;color:#6846a5}
 p{max-width:760px}
 details{margin:16px 0;background:#fbf8ff;border-radius:12px;overflow:hidden;border:1px solid #d8c9ef}
 summary{padding:22px;cursor:pointer;font-size:1.45rem;color:#6846a5;list-style-position:inside}
-.chapter-content{padding:22px;background:linear-gradient(#f5efffd9,#f5efffd9),var(--photo) center/cover}
+.chapter-content{padding:22px;background:var(--photo) center/cover}
 .chapter-content p{background:#fbf8ffb8;padding:10px;border-radius:6px}
 #ch1{--photo:url('beginning.png')}#ch2{--photo:url('learner.png')}
 #ch3{--photo:url('dreamer.png')}#ch4{--photo:url('becoming.png')}
@@ -69,9 +69,17 @@ footer{text-align:center;color:#746982;font-size:.9rem}
   <details id="ch2">
     <summary>02 · The Learner</summary>
     <div class="chapter-content">
-      <p>Today, I am a final year computer science student. And guess what after all the hardships, I finally grabed an internship. I spend my time learning how to break a problem into smaller pieces, think logically, and turn an idea into something that works. Sometimes the answer comes quickly. Sometimes I need to start again, and that is part of learning which I learned the hard way.</p>
-      <p>For me, code is more than syntax. It is patience, curiosity, teamwork, and the satisfaction of solving something that once felt impossible. Every project and every mistake adds a new line to my story.</p>
-      <p>I am not expected to know everything yet. I am here to ask better questions, practise, experiment, and become a little more capable than I was yesterday.</p>
+      <p>Today, I am a final-year Computer Science Engineering student at Siksha ‘O’ Anusandhan University, Bhubaneswar, Odisha, working towards my B.Tech degree, which I expect to complete in 2027. But my journey as a learner began long before college.</p>
+
+<p>I completed my schooling at St. Joseph’s Convent School, Rourkela, Odisha. In Class 10 (ICSE), I scored 96.33%, and in Class 12 (ISC), with Mathematics and Science, I secured 89.5%. Those years taught me the importance of discipline, consistency, and believing in my abilities, even when the journey felt challenging.</p>
+
+<p>College introduced me to a different kind of learning. With a CGPA of 9.6, I have explored subjects like Object-Oriented Programming, Operating Systems, Computer Networks, Data Structures, and Database Management. I have developed my programming skills in Java, Python, C, and SQL, while working on projects that have helped me connect classroom concepts with practical applications.</p>
+
+<p>And guess what? After all the hardships, I finally secured an internship opportunity! It feels like a meaningful milestone, a reminder that every difficult day, every setback, and every effort has contributed to this moment.</p>
+
+<p>For me, coding is more than syntax. It is patience, curiosity, teamwork, and the satisfaction of solving something that once felt impossible. Sometimes the answer comes quickly; sometimes I have to start again. I have learned that mistakes are not the opposite of progress, they are part of it.</p>
+
+<p>I know I still have a lot to learn. I want to keep asking better questions, practising, experimenting, and becoming a little more capable than I was yesterday. My education is not just about marks, degrees, or achievements; it is about the person I am becoming through everything I learn.</p>
     </div>
   </details>
 
